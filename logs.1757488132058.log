@@ -1,0 +1,408 @@
+2025-09-10T07:08:09.000000000Z [inf]  Starting Container
+2025-09-10T07:08:09.813535977Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:09.813540424Z [inf]  
+2025-09-10T07:08:09.813547317Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:09.813552266Z [inf]  > node server.js
+2025-09-10T07:08:09.813556305Z [inf]  
+2025-09-10T07:08:09.813560396Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2025-09-10T07:08:09.913828230Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:09.913833337Z [err]        throw e;
+2025-09-10T07:08:09.913840011Z [err]        ^
+2025-09-10T07:08:09.913844582Z [err]  
+2025-09-10T07:08:09.913849165Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:09.913854741Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:09.913858622Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:09.913863543Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:09.913870143Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:09.913874877Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:09.913878836Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:09.913882427Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:09.913886722Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:09.913892896Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:09.913898415Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:09.913902192Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:09.913906155Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:09.913910244Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:09.913914835Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:09.913919843Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:09.913923937Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:09.913928808Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:09.913933269Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:09.913937717Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:09.913942435Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:09.913946819Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:09.913950766Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:09.913954768Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:09.913961242Z [err]  }
+2025-09-10T07:08:09.913965832Z [err]  
+2025-09-10T07:08:09.913969901Z [err]  Node.js v18.20.5
+2025-09-10T07:08:10.723773802Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:10.758456983Z [inf]  
+2025-09-10T07:08:10.758460574Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:10.758465292Z [inf]  > node server.js
+2025-09-10T07:08:10.758470327Z [inf]  
+2025-09-10T07:08:10.814856061Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-09-10T07:08:11.115056918Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:11.115063282Z [err]        throw e;
+2025-09-10T07:08:11.115069800Z [err]        ^
+2025-09-10T07:08:11.115074840Z [err]  
+2025-09-10T07:08:11.115080043Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:11.115085731Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:11.115090042Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:11.115094324Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:11.115099047Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:11.115103744Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:11.115107250Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:11.115111046Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:11.115114414Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:11.115118363Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:11.115123117Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:11.115128239Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:11.115131765Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:11.115135881Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:11.115139844Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:11.115144443Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:11.115149051Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:11.115152752Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:11.115156318Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:11.115160199Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:11.115164110Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:11.115171338Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:11.115175672Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:11.115179372Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:11.115183115Z [err]  }
+2025-09-10T07:08:11.115186493Z [err]  
+2025-09-10T07:08:11.115191153Z [err]  Node.js v18.20.5
+2025-09-10T07:08:11.939622884Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:11.964889977Z [inf]  
+2025-09-10T07:08:11.964894247Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:11.964898055Z [inf]  > node server.js
+2025-09-10T07:08:11.964901992Z [inf]  
+2025-09-10T07:08:12.008524807Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-09-10T07:08:12.304640214Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:12.304649546Z [err]        throw e;
+2025-09-10T07:08:12.304656639Z [err]        ^
+2025-09-10T07:08:12.304665377Z [err]  
+2025-09-10T07:08:12.304672288Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:12.304678101Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:12.304682782Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:12.304688366Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:12.304693135Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:12.304699187Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:12.304703702Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:12.304708140Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:12.304712165Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:12.304716517Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:12.304720531Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:12.304725205Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:12.304730911Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:12.304735436Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:12.304739291Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:12.304743330Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:12.304748696Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:12.304753064Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:12.304756919Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:12.304760776Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:12.304766859Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:12.304771732Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:12.304776288Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:12.304780894Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:12.304784664Z [err]  }
+2025-09-10T07:08:12.304788769Z [err]  
+2025-09-10T07:08:12.304794203Z [err]  Node.js v18.20.5
+2025-09-10T07:08:13.133779983Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:13.152013007Z [inf]  
+2025-09-10T07:08:13.152019830Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:13.152024439Z [inf]  > node server.js
+2025-09-10T07:08:13.152029703Z [inf]  
+2025-09-10T07:08:13.203036449Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-09-10T07:08:13.519615783Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:13.519619998Z [err]        throw e;
+2025-09-10T07:08:13.519624490Z [err]        ^
+2025-09-10T07:08:13.519628802Z [err]  
+2025-09-10T07:08:13.519633229Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:13.519638887Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:13.519642924Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:13.519647497Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:13.519651352Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:13.519655576Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:13.519659735Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:13.519663315Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:13.519666914Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:13.519672533Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:13.519676913Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:13.519680835Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:13.519686079Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:13.519691018Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:13.519695943Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:13.519700136Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:13.519704186Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:13.519708210Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:13.519712065Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:13.519716728Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:13.519721102Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:13.519725033Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:13.519729750Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:13.519733784Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:13.519739203Z [err]  }
+2025-09-10T07:08:13.519743476Z [err]  
+2025-09-10T07:08:13.519747457Z [err]  Node.js v18.20.5
+2025-09-10T07:08:14.356685475Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:14.380480274Z [inf]  
+2025-09-10T07:08:14.380489978Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:14.380496473Z [inf]  > node server.js
+2025-09-10T07:08:14.380507672Z [inf]  
+2025-09-10T07:08:14.437733119Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-09-10T07:08:14.771654014Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:14.771657900Z [err]        throw e;
+2025-09-10T07:08:14.771661959Z [err]        ^
+2025-09-10T07:08:14.771666786Z [err]  
+2025-09-10T07:08:14.771671089Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:14.771675344Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:14.771679411Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:14.771683906Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:14.771688691Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:14.771694523Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:14.771699118Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:14.771703071Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:14.771707753Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:14.771712201Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:14.771716291Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:14.771719978Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:14.771723952Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:14.771728699Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:14.771732644Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:14.771737029Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:14.771742032Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:14.771747346Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:14.771752416Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:14.771757781Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:14.771763597Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:14.771768534Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:14.771773969Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:14.771780523Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:14.771786695Z [err]  }
+2025-09-10T07:08:14.771792988Z [err]  
+2025-09-10T07:08:14.771799579Z [err]  Node.js v18.20.5
+2025-09-10T07:08:15.522949469Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:15.553080320Z [inf]  
+2025-09-10T07:08:15.553089317Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:15.553094128Z [inf]  > node server.js
+2025-09-10T07:08:15.553098787Z [inf]  
+2025-09-10T07:08:15.610645723Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2025-09-10T07:08:15.924004836Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:15.924008619Z [err]        throw e;
+2025-09-10T07:08:15.924012439Z [err]        ^
+2025-09-10T07:08:15.924016527Z [err]  
+2025-09-10T07:08:15.924020202Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:15.924024738Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:15.924028603Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:15.924032569Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:15.924035957Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:15.924039549Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:15.924044226Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:15.924048401Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:15.924052004Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:15.924056656Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:15.924060586Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:15.924065093Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:15.924069508Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:15.924073307Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:15.924076824Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:15.924080647Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:15.924087691Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:15.924092107Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:15.924096160Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:15.924100119Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:15.924104109Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:15.924111342Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:15.924115246Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:15.924119022Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:15.924122720Z [err]  }
+2025-09-10T07:08:15.924126886Z [err]  
+2025-09-10T07:08:15.924130810Z [err]  Node.js v18.20.5
+2025-09-10T07:08:16.672530539Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:16.698103233Z [inf]  
+2025-09-10T07:08:16.698109862Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:16.698114936Z [inf]  > node server.js
+2025-09-10T07:08:16.698119000Z [inf]  
+2025-09-10T07:08:16.741740229Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-09-10T07:08:17.047415961Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:17.047419606Z [err]        throw e;
+2025-09-10T07:08:17.047423280Z [err]        ^
+2025-09-10T07:08:17.047427860Z [err]  
+2025-09-10T07:08:17.047431773Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:17.047435473Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:17.047439348Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:17.047444028Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:17.047448349Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:17.047452793Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:17.047456439Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:17.047461398Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:17.047465500Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:17.047469670Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:17.047473857Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:17.047478296Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:17.047483162Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:17.047487170Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:17.047491293Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:17.047497240Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:17.047502224Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:17.047507588Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:17.047512919Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:17.047518300Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:17.047524491Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:17.047528393Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:17.047532537Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:17.047536340Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:17.047540066Z [err]  }
+2025-09-10T07:08:17.047544494Z [err]  
+2025-09-10T07:08:17.047548867Z [err]  Node.js v18.20.5
+2025-09-10T07:08:17.830496710Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:17.858675332Z [inf]  
+2025-09-10T07:08:17.858682127Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:17.858686292Z [inf]  > node server.js
+2025-09-10T07:08:17.858691131Z [inf]  
+2025-09-10T07:08:17.912577869Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-09-10T07:08:18.204955851Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:18.204963000Z [err]        throw e;
+2025-09-10T07:08:18.204967884Z [err]        ^
+2025-09-10T07:08:18.204973557Z [err]  
+2025-09-10T07:08:18.204978375Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:18.204982981Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:18.204988362Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:18.204992837Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:18.204997651Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:18.205001949Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:18.205006291Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:18.205011210Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:18.205015545Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:18.205019475Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:18.205024789Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:18.205029132Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:18.205034011Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:18.205039049Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:18.205043246Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:18.205047083Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:18.205050941Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:18.205054897Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:18.205059815Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:18.205063799Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:18.205068009Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:18.205071934Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:18.205077531Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:18.205081904Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:18.205085847Z [err]  }
+2025-09-10T07:08:18.205090111Z [err]  
+2025-09-10T07:08:18.205094258Z [err]  Node.js v18.20.5
+2025-09-10T07:08:18.963987199Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:18.988545508Z [inf]  
+2025-09-10T07:08:18.988550942Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:18.988557220Z [inf]  > node server.js
+2025-09-10T07:08:18.988563092Z [inf]  
+2025-09-10T07:08:19.045884502Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-09-10T07:08:19.374017212Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:19.374022362Z [err]        throw e;
+2025-09-10T07:08:19.374026612Z [err]        ^
+2025-09-10T07:08:19.374031472Z [err]  
+2025-09-10T07:08:19.374037233Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:19.374045286Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:19.374051093Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:19.374057088Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:19.374066294Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:19.374073007Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:19.374082592Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:19.374089578Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:19.374096759Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:19.374106518Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:19.374115117Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:19.374123483Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:19.374132109Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:19.374138340Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:19.374147394Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:19.374153654Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:19.374684728Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:19.374689550Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:19.374694651Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:19.374698726Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:19.374702951Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:19.374707229Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:19.374712105Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:19.374715744Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:19.374720140Z [err]  }
+2025-09-10T07:08:19.374724929Z [err]  
+2025-09-10T07:08:19.374729080Z [err]  Node.js v18.20.5
+2025-09-10T07:08:20.346548430Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:20.364152930Z [inf]  
+2025-09-10T07:08:20.364157551Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:20.364162731Z [inf]  > node server.js
+2025-09-10T07:08:20.364170185Z [inf]  
+2025-09-10T07:08:20.408879372Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-09-10T07:08:20.718596833Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:20.718602049Z [err]        throw e;
+2025-09-10T07:08:20.718605765Z [err]        ^
+2025-09-10T07:08:20.718610564Z [err]  
+2025-09-10T07:08:20.718614963Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:20.718618918Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:20.718622785Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:20.718626774Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:20.718631248Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:20.718635845Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:20.718640629Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:20.718646216Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:20.718650541Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:20.718654641Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:20.718659675Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:20.718664013Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:20.718667859Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:20.718672033Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:20.718675645Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:20.718681735Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:20.718686282Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:20.718692200Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:20.718696973Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:20.718701443Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:20.718705250Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:20.718709423Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:20.718717358Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:20.718721872Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:20.718725640Z [err]  }
+2025-09-10T07:08:20.718730512Z [err]  
+2025-09-10T07:08:20.718734430Z [err]  Node.js v18.20.5
+2025-09-10T07:08:21.475563783Z [err]  npm warn config production Use `--omit=dev` instead.
+2025-09-10T07:08:21.499338416Z [inf]  
+2025-09-10T07:08:21.499346423Z [inf]  > tanyalingga-bot-tele@1.0.0 start
+2025-09-10T07:08:21.499352078Z [inf]  > node server.js
+2025-09-10T07:08:21.499358907Z [inf]  
+2025-09-10T07:08:21.543447395Z [inf]  [dotenv@17.2.2] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-09-10T07:08:21.845462551Z [err]  node:internal/modules/cjs/loader:597
+2025-09-10T07:08:21.845467409Z [err]        throw e;
+2025-09-10T07:08:21.845484958Z [err]        ^
+2025-09-10T07:08:21.845489335Z [err]  
+2025-09-10T07:08:21.845494925Z [err]  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No "exports" main defined in /app/node_modules/file-type/package.json
+2025-09-10T07:08:21.845499979Z [err]      at new NodeError (node:internal/errors:405:5)
+2025-09-10T07:08:21.845507241Z [err]      at exportsNotFound (node:internal/modules/esm/resolve:366:10)
+2025-09-10T07:08:21.845511260Z [err]      at packageExportsResolve (node:internal/modules/esm/resolve:656:13)
+2025-09-10T07:08:21.845516757Z [err]      at resolveExports (node:internal/modules/cjs/loader:590:36)
+2025-09-10T07:08:21.845521306Z [err]      at Module._findPath (node:internal/modules/cjs/loader:664:31)
+2025-09-10T07:08:21.845525622Z [err]      at Module._resolveFilename (node:internal/modules/cjs/loader:1126:27)
+2025-09-10T07:08:21.845532836Z [err]      at Module._load (node:internal/modules/cjs/loader:981:27)
+2025-09-10T07:08:21.845536946Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:21.845540765Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:21.845544429Z [err]      at Object.<anonymous> (/app/services/geminiService.js:3:32)
+2025-09-10T07:08:21.845550591Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:21.845555786Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:21.845560446Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:21.845565889Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:21.845570012Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-09-10T07:08:21.845575612Z [err]      at require (node:internal/modules/helpers:177:18)
+2025-09-10T07:08:21.845580194Z [err]      at Object.<anonymous> (/app/controllers/botController.js:5:5)
+2025-09-10T07:08:21.845584139Z [err]      at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-09-10T07:08:21.845587872Z [err]      at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-09-10T07:08:21.845594193Z [err]      at Module.load (node:internal/modules/cjs/loader:1203:32)
+2025-09-10T07:08:21.845598150Z [err]      at Module._load (node:internal/modules/cjs/loader:1019:12)
+2025-09-10T07:08:21.845603561Z [err]      at Module.require (node:internal/modules/cjs/loader:1231:19) {
+2025-09-10T07:08:21.845607459Z [err]    code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+2025-09-10T07:08:21.845612177Z [err]  }
+2025-09-10T07:08:21.845618339Z [err]  
+2025-09-10T07:08:21.845621900Z [err]  Node.js v18.20.5
