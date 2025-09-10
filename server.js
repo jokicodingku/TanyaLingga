@@ -22,14 +22,8 @@ app.use(express.json());
 
 // Webhook endpoint
 app.post('/webhook', (req, res) => {
-    // Vercel mengubah body menjadi objek, jadi kita langsung ambil dari req.body
-    // bukan req.body.message
-    const message = req.body;
-    
-    if (message) {
-        handleMessage(message.message || message.edited_message);
-    }
-    
+    // node-telegram-bot-api akan memproses seluruh body dari request
+    bot.processUpdate(req.body);
     res.sendStatus(200);
 });
 
