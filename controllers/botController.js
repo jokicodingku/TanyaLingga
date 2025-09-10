@@ -16,42 +16,41 @@ const handleMessage = async (message) => {
 
   console.log(`Pesan dari ${userName} (${userId}): ${messageText}`);
   
-  // Cek jika pesan berisi foto
-  if (message.photo) {
-    await handleImageMessage(chatId, message, userName);
-    return;
-  }
-  
-  // Jika tidak ada teks sama sekali (misal: stiker), abaikan.
-  if (!messageText) return;
-  
   try {
+    // Cek jika pesan berisi foto
+    if (message.photo) {
+      await handleImageMessage(bot, chatId, message, userName);
+      return;
+    }
+    
+    // Jika tidak ada teks sama sekali (misal: stiker), abaikan.
+    if (!messageText) return;
+
     // Command handling
     if (messageText.startsWith("/")) {
       // Cek apakah ini command /tanya
       if (messageText.toLowerCase().startsWith("/tanya ")) {
         // Ekstrak pertanyaan dari command
         const question = messageText.substring(7); // Menghapus "/tanya "
-        await handleTanyaCommand(chatId, question, userName);
+        await handleTanyaCommand(bot, chatId, question, userName);
       } else {
-        await handleCommand(chatId, messageText, userName);
+        await handleCommand(bot, chatId, messageText, userName);
       }
     } else {
       // Regular message - ini nanti akan disambungkan ke Gemini API
-      await handleRegularMessage(chatId, messageText, userName);
+      await handleRegularMessage(bot, chatId, messageText, userName);
     }
   } catch (error) {
     console.error("Error handling message:", error);
     await bot.sendMessage(
-      getBot(),
+      chatId,
       "Maaf, terjadi kesalahan. Silakan coba lagi."
     );
   }
 };
 
 // Handler untuk commands
-const handleCommand = async (chatId, command, userName) => {
-  const bot = getBot();
+const handleCommand = async (bot, chatId, command, userName) => {
   switch (command.toLowerCase()) {
     case "/start":
       const welcomeMessage = `Wih, halo ${userName}! 👋\n\nKenalin, gue Linggayahaha Online. Siap bantu lo dengan kekuatan AI.\n\nNih command yang bisa lo pake:\n• \`/tanya <pertanyaan>\` - Buat nanya apa aja ke gue.\n• \`/help\` - Kalo butuh bantuan.\n• \`/info\` - Info soal bot ini.\n\nAtau, lo bisa langsung chat aja, ntar gue bales! 🤖`;
@@ -77,8 +76,7 @@ const handleCommand = async (chatId, command, userName) => {
 };
 
 // Handler khusus untuk command /tanya
-const handleTanyaCommand = async (chatId, question, userName) => {
-  const bot = getBot();
+const handleTanyaCommand = async (bot, chatId, question, userName) => {
   if (!question) {
     await bot.sendMessage(chatId, "Tolong sertakan pertanyaan setelah command /tanya.\n\nContoh: `/tanya Apa itu AI?`", { parse_mode: "Markdown" });
     return;
@@ -86,12 +84,11 @@ const handleTanyaCommand = async (chatId, question, userName) => {
 
   console.log(`Pertanyaan dari ${userName} via /tanya: ${question}`);
   // Kita bisa gunakan kembali handleRegularMessage karena logikanya sama
-  await handleRegularMessage(chatId, question, userName);
+  await handleRegularMessage(bot, chatId, question, userName);
 };
 
 // Handler untuk pesan biasa (nanti akan terhubung ke Gemini)
-const handleRegularMessage = async (chatId, messageText, userName) => {
-  const bot = getBot();
+const handleRegularMessage = async (bot, chatId, messageText, userName) => {
   try {
     // Kirim "typing..." indicator
     await bot.sendChatAction(chatId, "typing");
@@ -106,8 +103,7 @@ const handleRegularMessage = async (chatId, messageText, userName) => {
   }
 };
 
-const handleImageMessage = async (chatId, message, userName) => {
-  const bot = getBot();
+const handleImageMessage = async (bot, chatId, message, userName) => {
   try {
     await bot.sendChatAction(chatId, "typing");
 
