@@ -38,9 +38,10 @@ app.get('/', (req, res) => {
     res.json({ status: 'Bot is running!' });
 });
 
-// Jika dijalankan di luar Vercel (misalnya, untuk pengembangan lokal)
-if (process.env.NODE_ENV === 'development') {
-    app.listen(3000, () => console.log('Local server running on port 3000'));
-}
+// Railway akan menyediakan process.env.PORT
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
 
 module.exports = app;
