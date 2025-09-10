@@ -1,0 +1,25 @@
+{
+  "name": "tanyalingga-bot-tele",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "file-type": "^21.0.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.1.10"
+  }
+}
