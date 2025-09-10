@@ -22,10 +22,12 @@ app.use(express.json());
 
 // Webhook endpoint
 app.post('/webhook', (req, res) => {
-    const message = req.body.message;
+    // Vercel mengubah body menjadi objek, jadi kita langsung ambil dari req.body
+    // bukan req.body.message
+    const message = req.body;
     
     if (message) {
-        handleMessage(message);
+        handleMessage(message.message || message.edited_message);
     }
     
     res.sendStatus(200);
@@ -35,16 +37,6 @@ app.post('/webhook', (req, res) => {
 app.get('/', (req, res) => {
     res.json({ status: 'Bot is running!' });
 });
-
-// Fungsi untuk mengatur webhook (dijalankan terpisah)
-const setWebhook = async (url) => {
-    try {
-        await bot.setWebHook(`${url}/webhook`);
-        console.log(`Webhook set to: ${url}/webhook`);
-    } catch (error) {
-        console.error('Error setting webhook:', error);
-    }
-};
 
 // Jika dijalankan di luar Vercel (misalnya, untuk pengembangan lokal)
 if (process.env.NODE_ENV === 'development') {

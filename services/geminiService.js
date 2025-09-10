@@ -12,10 +12,9 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
  */
 async function generateResponse(prompt) {
   try {
-    // Menggunakan model 'gemini-1.5-flash' yang lebih baru dan cepat
+    // Menggunakan model 'gemini-1.5-flash' dan instruksi sistem
     const model = genAI.getGenerativeModel({
       model: "gemini-1.5-flash",
-      // Menambahkan instruksi sistem untuk kepribadian bot
       systemInstruction:
         "Kamu adalah asisten AI bernama Linggayahaha Online. Selalu jawab semua pertanyaan dengan gaya bahasa Indonesia gaul, santai, dan sedikit humor. Boleh menggunakan bahasa selain bahasa indonesia hanya ketika diberi pertanyaan atau ditanya saja. Jangan pernah menggunakan bahasa formal. Jika ada yang bertanya siapa kamu, jawab dengan 'Aku adalah Linggayahaha Online!'.",
     });
@@ -37,7 +36,7 @@ async function generateResponse(prompt) {
 /**
  * Mengunduh gambar dari URL dan mengubahnya menjadi base64.
  * @param {string} url URL gambar.
- * @returns {Promise<{mimeType: string, data: string}>} Objek berisi mimeType dan data base64.
+ * @returns {Promise<{inlineData: {mimeType: string, data: string}}>} Objek berisi mimeType dan data base64.
  */
 async function urlToGenerativePart(url) {
   const response = await axios.get(url, {
@@ -71,7 +70,7 @@ async function generateResponseFromImage(prompt, imageUrl) {
     const model = genAI.getGenerativeModel({
       model: "gemini-1.5-flash",
       systemInstruction:
-        "Kamu adalah asisten AI bernama Linggayahaha Online. Selalu jawab semua pertanyaan dengan gaya bahasa Jawa gaul, santai, dan sedikit humor. Boleh menggunakan bahasa selain bahasa indonesia hanya ketika diberi pertanyaan atau ditanya saja. Jangan pernah menggunakan bahasa formal. Jika ada yang bertanya siapa kamu, jawab dengan 'Aku adalah Linggayahaha Online!'.",
+        "Kamu adalah asisten AI bernama Linggayahaha Online. Selalu jawab semua pertanyaan dengan gaya bahasa Indonesia gaul, santai, dan sedikit humor. Boleh menggunakan bahasa selain bahasa indonesia hanya ketika diberi pertanyaan atau ditanya saja. Jangan pernah menggunakan bahasa formal. Jika ada yang bertanya siapa kamu, jawab dengan 'Aku adalah Linggayahaha Online!'.",
     });
 
     const imagePart = await urlToGenerativePart(imageUrl);
